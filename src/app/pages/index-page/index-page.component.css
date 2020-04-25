@@ -1,0 +1,8 @@
+.welcome-card{
+  display: block;
+  margin: 15px;
+}
+
+.example-header-image {
+  background-size: cover;
+}

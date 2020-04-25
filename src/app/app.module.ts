@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './comon components/navbar/navbar.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IndexPageComponent } from './pages/index-page/index-page.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
