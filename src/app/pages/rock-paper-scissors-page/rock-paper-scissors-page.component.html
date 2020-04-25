@@ -1,1 +1,29 @@
-<p>rock-paper-scissors-page works!</p>
+<app-navbar></app-navbar>
+<mat-card class="game-card mat-elevation-z3">
+  <mat-card-header>
+    <mat-card-title>Rock-Paper-Scissors</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      This is just the simple game we all know. Hope you like it!
+    </p>
+    <mat-card class="game-card mat-elevation-z3">
+      <mat-card class="game-card mat-elevation-z2" color="primary">
+        <h1>Results:</h1>
+        <h3>Player: {{playerResult}}</h3>
+        <h3>Computer: {{computerResult}}</h3>
+      </mat-card>
+      <mat-card class="game-card mat-elevation-z2" color="primary">
+        <h1>Choises:</h1>
+        <h3>Player: {{playerChoise}}</h3>
+        <h3>Computer: {{computerChoise}}</h3>
+      </mat-card>
+      <mat-card-actions>
+        <h2>Choose:</h2>
+        <button mat-button>Paper</button>
+        <button mat-button>Rock</button>
+        <button mat-button>Scissors</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-card-content>
+</mat-card>

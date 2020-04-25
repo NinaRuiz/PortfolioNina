@@ -1,0 +1,9 @@
+.game-card{
+  display: block;
+  margin: 15px;
+}
+
+.divider{
+  display: compact;
+  margin: 15px;
+}
