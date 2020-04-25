@@ -15,14 +15,14 @@
       </mat-card>
       <mat-card class="game-card mat-elevation-z2" color="primary">
         <h1>Choises:</h1>
-        <h3>Player: {{playerChoise}}</h3>
-        <h3>Computer: {{computerChoise}}</h3>
+        <h3>Player: {{playerChoose}}</h3>
+        <h3>Computer: {{computerChoose}}</h3>
       </mat-card>
       <mat-card-actions>
         <h2>Choose:</h2>
-        <button mat-button>Paper</button>
-        <button mat-button>Rock</button>
-        <button mat-button>Scissors</button>
+        <button mat-button id="paper-button" (click)="choosePaper()">Paper</button>
+        <button mat-button id="rock-button" (click)="chooseRock()">Rock</button>
+        <button mat-button id="scissors-button" (click)="chooseScissors()">Scissors</button>
       </mat-card-actions>
     </mat-card>
   </mat-card-content>
