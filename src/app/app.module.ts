@@ -10,12 +10,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './comon components/navbar/navbar.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
 import {MatCardModule} from '@angular/material/card';
+import { RockPaperScissorsPageComponent } from './pages/rock-paper-scissors-page/rock-paper-scissors-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    IndexPageComponent
+    IndexPageComponent,
+    RockPaperScissorsPageComponent
   ],
   imports: [
     BrowserModule,
