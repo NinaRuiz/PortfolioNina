@@ -7,10 +7,9 @@ import { RockPaperScissorsPageComponent } from './pages/rock-paper-scissors-page
 
 
 const routes: Routes = [
-  {path: './index', component: IndexPageComponent},
-  {path: './rockpaperscissors', component: RockPaperScissorsPageComponent},
+  {path: '', component: IndexPageComponent},
+  {path: 'rock-paper-scissors', component: RockPaperScissorsPageComponent},
   //{ path: '**', component: PageNotFoundComponent } // Wildcard route for a 404 page
-  { path: '',   redirectTo: './index', pathMatch: 'full' }
 ];
 
 @NgModule({
