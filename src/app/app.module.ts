@@ -11,13 +11,15 @@ import { NavbarComponent } from './comon components/navbar/navbar.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
 import {MatCardModule} from '@angular/material/card';
 import { RockPaperScissorsPageComponent } from './pages/rock-paper-scissors-page/rock-paper-scissors-page.component';
+import { ModalComponent } from './comon components/modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     IndexPageComponent,
-    RockPaperScissorsPageComponent
+    RockPaperScissorsPageComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

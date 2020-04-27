@@ -28,12 +28,12 @@ export class RockPaperScissorsPageComponent implements OnInit {
     // Generate computer random response
     this.computerChoise = Math.round(Math.random() * 2);
 
-    //Show computer Choose
-    if(this.computerChoise === 0){
+    // Show computer Choose
+    if (this.computerChoise === 0) {
       this.computerChoose = 'Paper';
-    }else if(this.computerChoise === 1){
-      this.computerChoose = 'Rock'
-    }else if(this.computerChoise === 2){
+    } else if (this.computerChoise === 1) {
+      this.computerChoose = 'Rock';
+    } else if (this.computerChoise === 2) {
       this.computerChoose = 'Scissors';
     }
 
@@ -56,12 +56,12 @@ export class RockPaperScissorsPageComponent implements OnInit {
     // Generate computer random response
     this.computerChoise = Math.round(Math.random() * 2);
 
-    //Show computer Choose
-    if(this.computerChoise === 0){
+    // Show computer Choose
+    if (this.computerChoise === 0) {
       this.computerChoose = 'Paper';
-    }else if(this.computerChoise === 1){
-      this.computerChoose = 'Rock'
-    }else if(this.computerChoise === 2){
+    } else if (this.computerChoise === 1) {
+      this.computerChoose = 'Rock';
+    } else if (this.computerChoise === 2) {
       this.computerChoose = 'Scissors';
     }
 
@@ -84,12 +84,12 @@ export class RockPaperScissorsPageComponent implements OnInit {
     // Generate computer random response
     this.computerChoise = Math.round(Math.random() * 2);
 
-    //Show computer Choose
-    if(this.computerChoise === 0){
+    // Show computer Choose
+    if (this.computerChoise === 0) {
       this.computerChoose = 'Paper';
-    }else if(this.computerChoise === 1){
-      this.computerChoose = 'Rock'
-    }else if(this.computerChoise === 2){
+    } else if (this.computerChoise === 1) {
+      this.computerChoose = 'Rock';
+    } else if (this.computerChoise === 2) {
       this.computerChoose = 'Scissors';
     }
 
